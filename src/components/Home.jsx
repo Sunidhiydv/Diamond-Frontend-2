@@ -10,12 +10,15 @@ import Footers from './Footers'
 export default function Home() {
   return (
     <>
+    <section className='scroll-smooth'>
     <Nav/>
     <Hero/>
     <AboutUs/>
     <WhyUs/>
     <Service/>
     <Footers/>
+    </section>
+    
     </>
   )
 }
